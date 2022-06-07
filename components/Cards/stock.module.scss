@@ -1,0 +1,77 @@
+.btng,.btnb,.btnr{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border:1px solid grey;
+  border-radius: 5px;
+  font-size: 14px !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  width:120px;
+  height:35px;
+  margin: 1rem;
+  &:hover{opacity: .6;}
+}
+.btng{
+  color:green;
+  border-color: green;
+}
+.btnb{
+  color:orange;
+  border-color: orange;
+  width:140px;
+  margin:1rem .5rem;
+}
+.btnr{
+  color:red;
+  border-color: red;
+  width:140px;
+  margin:1rem .5rem;
+
+
+}
+.table{
+width:100%;
+overflow:hidden;
+display:grid;
+place-items:center;
+border:1px solid rgb(206, 206, 206);
+border-radius: 10px;
+height:360px;
+background:#f9f9f9;
+}
+.row,.mainrow{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  padding:1rem ;
+  span{
+    font-weight: 500;
+    text-transform: capitalize;
+    color:black;
+ 
+  }
+  h2{
+    text-transform: capitalize;
+  }
+}
+.mainrow{
+  padding:0;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media only screen and (min-width:1268px){
+  .table{
+    height:320px;
+  }
+  .mainrow{
+    // padding:0;
+    display:flex;
+    
+  }
+  
+}

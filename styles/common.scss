@@ -1,0 +1,66 @@
+/* /////////////common styles///////////// */
+body{
+  background: linear-gradient(115deg, #000000 0%, #00C508 55%, #000000 100%), linear-gradient(115deg, #0057FF 0%, #020077 100%), conic-gradient(from 110deg at -5% 35%, #000000 0deg, #FAFF00 360deg), conic-gradient(from 220deg at 30% 30%, #FF0000 0deg, #0000FF 220deg, #240060 360deg), conic-gradient(from 235deg at 60% 35%, #0089D7 0deg, #0000FF 180deg, #240060 360deg);
+background-blend-mode: soft-light, soft-light, overlay, screen, normal;
+border-radius: 0 0 0 35px;
+}
+.btnsContainer{
+  width:fit-content;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+.change-data-btn{
+  padding:2px 8px;
+  border:1px solid grey;
+  margin:0 .8rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color:grey;
+  outline:none;
+  &:focus{
+    outline:none;
+  }
+}
+.m-tb-3{
+  margin:3rem 0;
+}
+.view-more-btn{
+  width:140px;
+  height:34px;
+  position:absolute;
+  // margin-top: 1rem;
+  left: 40%;
+  z-index: 2;
+  bottom:-1.4rem;
+
+  border-radius: 8px;
+  text-transform: uppercase;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:#00ad9c;
+color:white;
+  &:hover{
+    border:1px solid #00ad9c;
+    color:#00ad9c;
+    background-color:white;
+  }
+}
+.gr-bg{
+//   background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+// background-blend-mode: overlay, hard-light, normal;
+background: linear-gradient(115deg, #000000 0%, #00C508 55%, #000000 100%), linear-gradient(115deg, #0057FF 0%, #020077 100%), conic-gradient(from 110deg at -5% 35%, #000000 0deg, #FAFF00 360deg), conic-gradient(from 220deg at 30% 30%, #FF0000 0deg, #0000FF 220deg, #240060 360deg), conic-gradient(from 235deg at 60% 35%, #0089D7 0deg, #0000FF 180deg, #240060 360deg);
+background-blend-mode: soft-light, soft-light, overlay, screen, normal;
+border-radius: 0 0 0 35px;
+}
+.cardGlass{
+  backdrop-filter: blur(22px) saturate(200%);
+    -webkit-backdrop-filter: blur(22px) saturate(200%);
+    background-color: rgba(30, 31, 45, 0.44);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
